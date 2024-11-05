@@ -112,11 +112,11 @@
 # Searchkick.extend Pagy::Searchkick
 
 
-#Frontend Extras
+# Frontend Extras
 
-#Bootstrap extra: Add nav, nav_js and combo_nav_js helpers and templates for Bootstrap pagination
-#See https://ddnexus.github.io/pagy/docs/extras/bootstrap
-require 'pagy/extras/bootstrap'
+# Bootstrap extra: Add nav, nav_js and combo_nav_js helpers and templates for Bootstrap pagination
+# See https://ddnexus.github.io/pagy/docs/extras/bootstrap
+# require 'pagy/extras/bootstrap'
 
 # Bulma extra: Add nav, nav_js and combo_nav_js helpers and templates for Bulma pagination
 # See https://ddnexus.github.io/pagy/docs/extras/bulma
@@ -151,8 +151,8 @@ require 'pagy/extras/bootstrap'
 
 # Overflow extra: Allow for easy handling of overflowing pages
 # See https://ddnexus.github.io/pagy/docs/extras/overflow
-require 'pagy/extras/overflow'
-Pagy::DEFAULT[:overflow] = :empty_page    # default  (other options: :last_page and :exception)
+# require 'pagy/extras/overflow'
+# Pagy::DEFAULT[:overflow] = :empty_page    # default  (other options: :last_page and :exception)
 
 # Trim extra: Remove the page=1 param from links
 # See https://ddnexus.github.io/pagy/docs/extras/trim
